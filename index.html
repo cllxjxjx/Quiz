@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form</title>
+    <title>Quiz</title>
     <style>
         * {
             box-sizing: border-box;
@@ -106,18 +106,34 @@
             </div>
 
             <div>
-                <label for="subject">Subject</label>
+                <label for="subject">Which html tag used for main page caption?</label>
                 <select id="subject" name="subject" required>
-                    <option value="" disabled selected>Choose the Subject</option>
-                    <option value="general">General Question</option>
-                    <option value="support">Technical support</option>
-                    <option value="feedback">Suggestions</option>
+                    <option value="" disabled selected>Choose one of them</option>
+                    <option value="Head">Head</option>
+                    <option value="H1">H1</option>
+                    
                 </select>
+                <label for="subject">Which html tag used for making path to other pages?</label>
+                <select id="subject" name="subject" required>
+                    <option value="" disabled selected>Choose one of them</option>
+                    <option value="Link">link</option>
+                    <option value="a">a</option>
+                    
+                </select>
+                <label for="subject">Which css property used for changing background color?</label>
+                <select id="subject" name="subject" required>
+                    <option value="" disabled selected>Choose one of them</option>
+                    <option value="color">color</option>
+                    <option value="bgcolor">bgcolor</option>
+                    
+                </select>
+            
+            
             </div>
 
             <div>
                 <label for="message">Your Message</label>
-                <textarea id="message" name="message" placeholder="Write your mesage here..." required></textarea>
+                <textarea id="message" name="message" placeholder="Write your suggests here..." required></textarea>
             </div>
 
             <button type="submit">Send</button>
